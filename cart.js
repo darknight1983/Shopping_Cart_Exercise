@@ -33,13 +33,21 @@ while(listOfItems.length > 0) {
 	shopping_cart.push(listOfItems.pop());
 }
 
+// Sort the items in your cart alphabetically
+shopping_cart.sort()
+
 // Print the items in shopping cart as comma separated string.
 
 let strToPrint = "";
 
 for (let i = 0; i < shopping_cart.length; i++) {
+	if (shopping_cart.length ) {
 
+	}
 	strToPrint += shopping_cart[i] + ", "
 }
 
 console.log(strToPrint)
+
+
+var item = grocery.pop()
